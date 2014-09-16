@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>Incomplete C++11 tmLanguage</string>
+	<string>Incomplete C++14 tmLanguage</string>
 	<key>fileTypes</key>
 	<array>
 		<string>cpp</string>
