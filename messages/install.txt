@@ -1,4 +1,4 @@
-Thank you for installing sublime-cpp11!
+Thank you for installing sublime-cpp14!
 
 
 Installation
@@ -30,5 +30,5 @@ and add the following:
 
 Note: The current version is an early release with only minimal support
 * Pull requests welcome!
-* Report issues here: https://github.com/noct/sublime-cpp11/issues
+* Report issues here: https://github.com/forcegroup/sublime-cpp14/issues
 * Or just hit me up on twitter: @noct
