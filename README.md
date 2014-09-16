@@ -1,4 +1,4 @@
-sublime-cpp11
+sublime-cpp14
 =============
 
-Replacement self-contained C++11 syntax definition for Sublime Text
+Replacement self-contained C++14 syntax definition for Sublime Text
