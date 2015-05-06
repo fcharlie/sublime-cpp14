@@ -32,7 +32,7 @@
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
-	<string>C++11</string>
+	<string>C++14</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -146,7 +146,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
+			<string>(?&lt;![0-9a-zA-Z'])((0(b|B)([01]?|([01]([01]|((?&lt;!\')\'))*[01])))|(0(x|X)([0-9a-fA-F]?|([0-9a-fA-F]([0-9a-fA-F]|((?&lt;!\')\'))*[0-9a-fA-F])))|((([0-9]|([0-9]([0-9]|((?&lt;!\')\'))*[0-9]))\.?([0-9]?|([0-9]([0-9]|((?&lt;!\')\'))*[0-9])))|(\.([0-9]|([0-9]([0-9]|((?&lt;!\')\'))*[0-9]))))((e|E)(\+|-)?([0-9]|([0-9]([0-9]|((?&lt;!\')\'))*[0-9])))?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?(?![0-9a-zA-Z'])</string>
 			<key>name</key>
 			<string>constant.numeric.c++</string>
 		</dict>
